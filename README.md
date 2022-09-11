@@ -20,9 +20,9 @@ The following prerequisites are necessary for building and running the code:
 
 1) Matlab R2019b
 
-2) Boost 1.80.0 - I downloaded boost from here https://www.boost.org/. My code only requires the headers of the Boost libraries. Hence, there is no need to build boost as well.
+2) Boost 1.80.0 - I downloaded boost from here https://www.boost.org/. My code only requires the headers of the Boost libraries. Hence, there is no need to build boost.
 
-3) CGAL 5.5 - CGAL has to be compiled with 64 bits dynamic (also called shared) - in order to do that we used cmake.
+3) CGAL 5.5 - I installed CGAL 5.5 with the gmp and mpfr auxiliary libraries. There is no need to build CGAL as well.
 
 4) GMM C++ template library version 4.2 (http://getfem.org/download.html).
 
