@@ -1,10 +1,7 @@
 # Globally Injective Flattening via a Reduced Harmonic Subspace
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This code indludes the implementation of the SIGGRAPH ASIA 2022 paper "Globally Injective Flattening via a Reduced Harmonic Subspace" authored by Guy Fargion and Ofir Weber. 
-
-
-
+This code includes the implementation of the SIGGRAPH ASIA 2022 paper "Globally Injective Flattening via a Reduced Harmonic Subspace" authored by Guy Fargion and Ofir Weber. 
 
 The use of this application is limited to academic use only!
 
