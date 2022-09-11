@@ -61,6 +61,7 @@ OMP_NUM_THREADS  	  number of cores in your CPU (for PARDISO)
 
 4) Make sure all the required dlls can be loacted by including the relevant paths into the system PATH variable.
 For example:
+
 PATH=
 %MATLAB_64_DIR%\bin\win64;
 %MATLAB_64_DIR%\extern\include;
