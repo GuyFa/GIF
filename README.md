@@ -10,6 +10,8 @@ The use of this application is limited to academic use only!
 
 The code is provided as-is and without any guarantees.
 
+This code is partially based on https://github.com/eden-fed/HGP#harmonic-global-parametrizations.
+
 For questions or comments about the code please contact:
 Guy Fargion (guy.fargion@gmail.com)
 
@@ -60,17 +62,18 @@ OMP_NUM_THREADS  	  number of cores in your CPU (for PARDISO)
 
 3) Add the the folder "MatlabScripts" to your Matlab path.
 
-4) Make sure all the required dlls can be loacted by including the relevant paths into the system PATH variable. For example:
-	PATH=
-	%MATLAB_64_DIR%\bin\win64;
-	%MATLAB_64_DIR%\extern\include;
-	%MATLAB_64_DIR%\extern\lib\win64\microsoft;
-	%BOOST_64_DIR%\libs;
-	%CGAL_64_DIR%\lib;
-	%CGAL_64_DIR%\auxiliary\gmp\lib;
-	%CGAL_64_DIR%\include\CGAL;
-	%PARDISO_BIN%;
-	%MATLAB_64_DIR%
+4) Make sure all the required dlls can be loacted by including the relevant paths into the system PATH variable.
+For example:
+PATH=
+%MATLAB_64_DIR%\bin\win64;
+%MATLAB_64_DIR%\extern\include;
+%MATLAB_64_DIR%\extern\lib\win64\microsoft;
+%BOOST_64_DIR%\libs;
+%CGAL_64_DIR%\lib;
+%CGAL_64_DIR%\auxiliary\gmp\lib;
+%CGAL_64_DIR%\include\CGAL;
+%PARDISO_BIN%;
+%MATLAB_64_DIR%
 
 5) Execute GIF.exe.
 This should invoke Matlab and open a dialog box.
