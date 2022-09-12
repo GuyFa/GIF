@@ -13,8 +13,8 @@ For questions or comments about the code please contact:
 Guy Fargion (guy.fargion@gmail.com)
 
 ----------------------------------------------------------------------------
-A Visual Studio 2017 (MSVC 14.1) project is provided for easy compilation on Windows machines.
-The code should be platform independent though we never tested it on other than Windows OS.
+A Visual Studio 2019 project is provided for easy compilation on Windows machines.
+The code should be platform independent though I never tested it on other than Windows OS.
 
 The following prerequisites are necessary for building and running the code:
 
