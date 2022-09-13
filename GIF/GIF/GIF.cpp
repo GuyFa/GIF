@@ -1766,11 +1766,6 @@ bool GIF::getResult()
 		mParameters_matrix(13, 0) = 1;
 	}
 
-	CGAL::Timer totalTime;
-	totalTime.start();
-	MatlabInterface::GetEngine().EvalToCout("global_scaling");
-	totalTime.stop();
-	cout << "global scaling time: " << totalTime.time() << endl;
 	mParameters_matrix(12, 0) = flippedTriangles.size();
 	
 	return (flippedTriangles.size() > 0);
